@@ -1,0 +1,14 @@
+body
+{
+    text-align: center;
+}
+
+.main
+{
+    display: grid;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    grid-gap: 1px;
+
+}
