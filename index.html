@@ -2,18 +2,32 @@
 <html>
     <head>
         <title>Etch-A-Sketch</title>
-        <meta charset= "utf-8">
-        <link rel="stylesheet" href="style.css">
+        <meta charset= 'utf-8'>
+        <link rel='stylesheet' href='style.css'>
     </head>
     <body>
-        <div class="body">
-            <div class="main">
-
+        <div class='body'>
+            <div class='header'>
+                <h1>Etch-A-Sketch</h1>
             </div>
-            <div class = "button">
-                <button>Create New Grid</button>
+            <div class='main'>
+            </div>
+            <div class = 'bottom'>
+                <div class = 'newGrid'>
+                    <button>Create New Grid</button>
+                </div>
+                <div class = 'dropdown'>
+                    <select id = 'colour'>
+                        <option selected value = 'black'>Black</option>
+                        <option value = 'rgb'>RGB</option>
+                        <option value = 'greyscale'>Greyscale</option>
+                    </select>
+                </div>
+                <div class = 'reset'>
+                    <button>Reset The Grid</button>
+                </div>
             </div>
         </div>
-        <script src="main.js"></script>
+        <script src='main.js'></script>
     </body>
 </html>

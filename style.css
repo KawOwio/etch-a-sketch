@@ -1,6 +1,12 @@
 body
 {
     text-align: center;
+    background-color: #292929;
+}
+
+.header
+{
+    color: white;
 }
 
 .main
@@ -9,6 +15,13 @@ body
     margin: auto;
     width: 600px;
     height: 600px;
-    grid-gap: 1px;
+    border: 1px solid;
 
+}
+
+.bottom
+{
+    padding: 5% 20% 5% 20%;
+    display: flex;
+    justify-content: space-evenly;
 }
